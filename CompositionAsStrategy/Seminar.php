@@ -1,0 +1,1 @@
+<?php/** * Created by Viktor Lazhevskyi. * User: viktor.lazhevskyi@gmail.com * Date: 02.02.2019 * Time: 12:43 */include_once __DIR__ .DS . "Lesson.php";class Seminar extends Lesson{}

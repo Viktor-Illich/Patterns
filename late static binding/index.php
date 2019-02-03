@@ -1,0 +1,1 @@
+<?php/** * Created by Viktor Lazhevskyi. * User: viktor.lazhevskyi@gmail.com * Date: 19.01.2019 * Time: 22:29 *//** * word self is not bind on context class */abstract class DomainObject{    public static function create(){        return new static();    }}class Document extends DomainObject{}class User extends DomainObject{}print_r(Document::create());

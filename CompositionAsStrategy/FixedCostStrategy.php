@@ -1,0 +1,1 @@
+<?php/** * Created by Viktor Lazhevskyi. * User: viktor.lazhevskyi@gmail.com * Date: 02.02.2019 * Time: 12:44 */include_once __DIR__ . DS . "CostStrategy.php";class FixedCostStrategy extends CostStrategy{    public function cost(Lesson $lesson)    {        return 30;    }    public function chargeType()    {        return "Фиксована ставка";    }}
